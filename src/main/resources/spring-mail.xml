@@ -11,8 +11,8 @@
 	<!-- Spring提供的发送电子邮件的高级抽象类 -->
 	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
 		<property name="host" value="smtp.163.com" />
-		<property name="username" value="17369379967@163.com" />
-		<property name="password" value="wen430424" />
+		<property name="username" value="******@163.com" />
+		<property name="password" value="*****" />
 		<property name="defaultEncoding" value="UTF-8"></property>
 		<property name="javaMailProperties">
 			<props>
